@@ -1,0 +1,88 @@
+@charset "utf-8";
+@import url("DIMIS_title/stylesheet.css");
+
+
+/* CSS Document ALEX TRAVEL*/
+body{
+	margin-left: 17%;
+	margin-right: 17%;
+	background-color:#bdc3c7;
+	font-family:Arial, Helvetica, sans-serif;
+}
+header{
+	background-color:#00F;
+	background-image:-webkit-linear-gradient(#06F, #6FC);
+	/*background-image:-webkit-linear-gradient(#2B93D2, #77BCE6);*/
+	padding:8px;
+	color:#FFF;
+	font-family: "DIMIS_title";
+}
+#registro{
+	font-family:"Arial Black", Gadget, sans-serif;
+	display:inline-block;
+	font-size:12px;
+	margin-left:560px;
+}
+h1{
+	display:inline-block;
+}
+a {
+	text-decoration:none;
+}
+/*APLICACION PRINCIPAL*/
+.aplicacion{
+	width: 98%;
+	/*height: 350px;*/
+	background-color: #FF0;
+	margin-top: -17px;
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: 10px 10px 0px #888;
+	padding: 1%;	
+	font-family:Arial, Helvetica, sans-serif;
+}
+#cercador{
+	font-size:24px;
+	color:#06F;
+}
+
+li{
+	display:inline-block;
+	margin-left:1px;
+	border-radius:8px 8px 0px 0px;
+	width:100px;
+	text-align:center;
+	padding:1px;
+}
+li:hover{
+	font-weight:bolder;	
+	
+}
+/*BANNERS*/
+#banners{
+	margin-top:18px;	
+}
+
+.registrarse{
+    color: black;
+}
+#formu{
+    background-color: #FF0;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 2%;
+    box-shadow: 10px 10px 0px #888;
+}
+
+/*Tabla carrito*/
+
+td{
+    	padding: 15px;
+    }
+    
+/*Breadcrumbs, o molles de pa*/
+#breadcrumbs{
+    color: #FF0;
+    font-size: 25px;
+    margin-top: 10px;
+}
+    
